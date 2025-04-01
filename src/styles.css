@@ -6,6 +6,7 @@ body {
   font-family: sans-serif;
   margin: 20px;
   padding: 0;
+  background-color: #e0e0e0;
 }
 
 h1 {
@@ -69,6 +70,8 @@ body {
   padding: 0;
   text-align: center;
   width: 34px;
+  border: 1px solid #555;
+  cursor: pointer;
 }
 
 .board-row:after {
@@ -78,9 +81,12 @@ body {
 }
 
 .status {
+  font-size: 20px;
   margin-bottom: 10px;
 }
 .game {
+  margin-top: 10%;
+  justify-content: center;
   display: flex;
   flex-direction: row;
 }
